@@ -19,28 +19,6 @@ A clean, scalable, and modular backend architecture for NestJS applications usin
 - class-validator: DTO validation.
 - dotenv: Environment configuration.
 
-## Folder Structure
-
-- `config/`: Configuration files (e.g., `.env`, `.env.example`).
-- `src/`
-  - `common/`
-    - `decorators/`: Custom decorators (e.g., `authentication.decorator.ts`, `roles.decorator.ts`).
-    - `email/`: Email utilities (e.g., `sendEmail.ts`).
-    - `guard/`: Authentication and authorization guards (e.g., `authentication-guard.spec.ts`, `authorization-guard.ts`).
-    - `pipes/`: Custom pipes (e.g., `hash-security.ts`).
-    - `service/`: Shared services (e.g., `token-service.ts`).
-  - `model/`
-    - `user-model.ts`: Mongoose schema definitions.
-    - `db.repository-service.ts`: Generic repository implementation.
-  - `modules/`
-    - `app.controller.spec.ts`: Controller tests.
-    - `app.module.ts`: Root application module.
-  - `main.ts`: Application entry point.
-- `test/`: Test files (e.g., `app.e2e-spec.ts`).
-- `package.json`: Project dependencies and scripts.
-- `package-lock.json`: Dependency lock file.
-- `prettierc`: Prettier configuration.
-- `nest-cli.json`: Nest CLI configuration.
 
 ## Installation
 
