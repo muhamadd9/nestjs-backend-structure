@@ -1,4 +1,3 @@
-```markdown
 # nestjs-backend-structure
 
 A clean, scalable, and modular backend architecture for NestJS applications using the Generic Repository Pattern with Mongoose. This structure promotes maintainability, separation of concerns, and ease of testing.
@@ -80,4 +79,3 @@ A clean, scalable, and modular backend architecture for NestJS applications usin
    ```bash
    npm run start:dev
    ```
-```
